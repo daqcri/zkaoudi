@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:bibtex="http://www.edutella.org/bibtex#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <bibtex:Article rdf:about="atlas-coregrid-book">
+    <dct:isPartOf>
+      <bibtex:Journal rdf:about="atlas-coregrid-book_Knowledge_and_Data_Management_in_Grids"/>
+    </dct:isPartOf>
+    <dc:creator>
+      <rdf:Seq>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Kaoudi_Z_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Miliaraki_I_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Magiridou_M_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Liarou_E_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Idreos_S_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-coregrid-book_Koubarakis_M_"/>
+        </rdf:li>
+      </rdf:Seq>
+    </dc:creator>
+    <bibtex:note>Talia Domenico and Bilas Angelos and Dikaiakos Marios D. (editors), Springer</bibtex:note>
+    <dc:title>Semantic Grid Resource Discovery in Atlas</dc:title>
+  </bibtex:Article>
+  <bibtex:Journal rdf:about="atlas-coregrid-book_Knowledge_and_Data_Management_in_Grids">
+    <dc:title>Knowledge and Data Management in Grids</dc:title>
+    <dc:date>2006</dc:date>
+  </bibtex:Journal>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Magiridou_M_">
+    <vcard:FN>M. Magiridou</vcard:FN>
+    <rdfs:label>M. Magiridou</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>M.</vcard:Given>
+      <vcard:Family>Magiridou</vcard:Family>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Liarou_E_">
+    <rdfs:label>E. Liarou</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>E.</vcard:Given>
+      <vcard:Family>Liarou</vcard:Family>
+    </vcard:N>
+    <vcard:FN>E. Liarou</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Idreos_S_">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Idreos</vcard:Family>
+      <vcard:Given>S.</vcard:Given>
+    </vcard:N>
+    <rdfs:label>S. Idreos</rdfs:label>
+    <vcard:FN>S. Idreos</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Kaoudi_Z_">
+    <vcard:FN>Z. Kaoudi</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Z.</vcard:Given>
+      <vcard:Family>Kaoudi</vcard:Family>
+    </vcard:N>
+    <rdfs:label>Z. Kaoudi</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Miliaraki_I_">
+    <vcard:FN>I. Miliaraki</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Miliaraki</vcard:Family>
+      <vcard:Given>I.</vcard:Given>
+    </vcard:N>
+    <rdfs:label>I. Miliaraki</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-coregrid-book_Koubarakis_M_">
+    <vcard:FN>M. Koubarakis</vcard:FN>
+    <rdfs:label>M. Koubarakis</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Koubarakis</vcard:Family>
+      <vcard:Given>M.</vcard:Given>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:sourceFile rdf:about="bibfile">
+    <bibtex:absolutePath>file:/D:/zoi/kaoudi06book.bib</bibtex:absolutePath>
+  </bibtex:sourceFile>
+  <rdf:Seq rdf:about="referenceList">
+    <rdf:li rdf:resource="atlas-coregrid-book"/>
+  </rdf:Seq>
+</rdf:RDF>

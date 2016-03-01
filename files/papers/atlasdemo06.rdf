@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:bibtex="http://www.edutella.org/bibtex#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <bibtex:Misc rdf:about="atlas-demo">
+    <bibtex:howpublished>3rd European Semantic Web Conference, 11 - 14 June 2006, Budva, Montenegro, Demo paper</bibtex:howpublished>
+    <dc:creator>
+      <rdf:Seq>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-demo_Kaoudi_Z_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-demo_Miliaraki_I_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-demo_Magiridou_M_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-demo_Papadakis-Pesaresi_A_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-demo_Koubarakis_M_"/>
+        </rdf:li>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:title>Storing and Querying RDF Data in Atlas</dc:title>
+  </bibtex:Misc>
+  <bibtex:Person rdf:about="atlas-demo_Koubarakis_M_">
+    <vcard:FN>M. Koubarakis</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>M.</vcard:Given>
+      <vcard:Family>Koubarakis</vcard:Family>
+    </vcard:N>
+    <rdfs:label>M. Koubarakis</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-demo_Kaoudi_Z_">
+    <vcard:FN>Z. Kaoudi</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Z.</vcard:Given>
+      <vcard:Family>Kaoudi</vcard:Family>
+    </vcard:N>
+    <rdfs:label>Z. Kaoudi</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-demo_Magiridou_M_">
+    <rdfs:label>M. Magiridou</rdfs:label>
+    <vcard:FN>M. Magiridou</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>M.</vcard:Given>
+      <vcard:Family>Magiridou</vcard:Family>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-demo_Miliaraki_I_">
+    <rdfs:label>I. Miliaraki</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Miliaraki</vcard:Family>
+      <vcard:Given>I.</vcard:Given>
+    </vcard:N>
+    <vcard:FN>I. Miliaraki</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-demo_Papadakis-Pesaresi_A_">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>A.</vcard:Given>
+      <vcard:Family>Papadakis-Pesaresi</vcard:Family>
+    </vcard:N>
+    <rdfs:label>A. Papadakis-Pesaresi</rdfs:label>
+    <vcard:FN>A. Papadakis-Pesaresi</vcard:FN>
+  </bibtex:Person>
+  <bibtex:sourceFile rdf:about="bibfile">
+    <bibtex:absolutePath>file:/D:/zoi/atlasdemo06.bib</bibtex:absolutePath>
+  </bibtex:sourceFile>
+  <rdf:Seq rdf:about="referenceList">
+    <rdf:li rdf:resource="atlas-demo"/>
+  </rdf:Seq>
+</rdf:RDF>

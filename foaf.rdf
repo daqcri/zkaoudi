@@ -1,0 +1,44 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"      
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Zoi Kaoudi</foaf:name>
+<owl:sameAs rdf:resource="http://semanticweb.org/wiki/Zoi_Kaoudi"/>
+<owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zoi_Kaoudi"/>
+<foaf:title>Mrs</foaf:title>
+<foaf:givenname>Zoi</foaf:givenname>
+<foaf:family_name>Kaoudi</foaf:family_name>
+<foaf:nick>zoi</foaf:nick>
+<foaf:mbox_sha1sum>c9a5eca0c257e88ec99a109439e5de23c89d81b5</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://www.di.uoa.gr/~zoi"/>
+<foaf:depiction rdf:resource="http://www.di.uoa.gr/~zoi/zoi.JPG"/>
+<foaf:phone rdf:resource="tel:+30-2107275159"/>
+<foaf:based_near rdf:resource="http://dbpedia.org/resource/Athens"/>
+<foaf:based_near>
+                  <geo:Point>
+                    <geo:lat>37.97415978139894</geo:lat>
+                    <geo:long>23.78239631652832</geo:long>
+                  </geo:Point>
+
+</foaf:based_near>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Semantic_Web"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Iris Miliaraki</foaf:name>
+<foaf:mbox_sha1sum>bdcaabe25123d2d120184958cad9a3b4ec96dd7e</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://www.di.uoa.gr/~iris/foaf.rdf"/>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
+</rdf:RDF>
+

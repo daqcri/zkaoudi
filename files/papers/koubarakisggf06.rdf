@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:bibtex="http://www.edutella.org/bibtex#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <bibtex:InProceedings rdf:about="atlas-ggf">
+    <dct:isPartOf>
+      <bibtex:Proceedings rdf:about="atlas-ggf_3rd_GGF_Semantic_Grid_Workshop"/>
+    </dct:isPartOf>
+    <dc:creator>
+      <rdf:Seq>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-ggf_Koubarakis_M_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-ggf_Miliaraki_I_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-ggf_Kaoudi_Z_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-ggf_Magiridou_M_"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="atlas-ggf_Papadakis-Pesaresi_A_"/>
+        </rdf:li>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:title>Semantic Grid Resource Discovery using DHTs in Atlas</dc:title>
+  </bibtex:InProceedings>
+  <bibtex:Proceedings rdf:about="atlas-ggf_3rd_GGF_Semantic_Grid_Workshop">
+    <dc:title>3rd GGF Semantic Grid Workshop</dc:title>
+    <vcard:ADR rdf:parseType="Resource">
+      <vcard:Country>Greece</vcard:Country>
+      <vcard:Locality>Athens</vcard:Locality>
+    </vcard:ADR>
+    <dc:date>2006</dc:date>
+    <bibtex:month>13-16 February</bibtex:month>
+  </bibtex:Proceedings>
+  <bibtex:Person rdf:about="atlas-ggf_Papadakis-Pesaresi_A_">
+    <rdfs:label>A. Papadakis-Pesaresi</rdfs:label>
+    <vcard:FN>A. Papadakis-Pesaresi</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Papadakis-Pesaresi</vcard:Family>
+      <vcard:Given>A.</vcard:Given>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-ggf_Kaoudi_Z_">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Z.</vcard:Given>
+      <vcard:Family>Kaoudi</vcard:Family>
+    </vcard:N>
+    <vcard:FN>Z. Kaoudi</vcard:FN>
+    <rdfs:label>Z. Kaoudi</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-ggf_Magiridou_M_">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>M.</vcard:Given>
+      <vcard:Family>Magiridou</vcard:Family>
+    </vcard:N>
+    <vcard:FN>M. Magiridou</vcard:FN>
+    <rdfs:label>M. Magiridou</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-ggf_Koubarakis_M_">
+    <rdfs:label>M. Koubarakis</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>M.</vcard:Given>
+      <vcard:Family>Koubarakis</vcard:Family>
+    </vcard:N>
+    <vcard:FN>M. Koubarakis</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="atlas-ggf_Miliaraki_I_">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Miliaraki</vcard:Family>
+      <vcard:Given>I.</vcard:Given>
+    </vcard:N>
+    <rdfs:label>I. Miliaraki</rdfs:label>
+    <vcard:FN>I. Miliaraki</vcard:FN>
+  </bibtex:Person>
+  <bibtex:sourceFile rdf:about="bibfile">
+    <bibtex:absolutePath>file:/D:/zoi/koubarakisggf06.bib</bibtex:absolutePath>
+  </bibtex:sourceFile>
+  <rdf:Seq rdf:about="referenceList">
+    <rdf:li rdf:resource="atlas-ggf"/>
+  </rdf:Seq>
+</rdf:RDF>

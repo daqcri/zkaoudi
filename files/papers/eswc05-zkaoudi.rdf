@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:bibtex="http://www.edutella.org/bibtex#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <bibtex:InProceedings rdf:about="kaoudi05">
+    <dc:creator>
+      <rdf:Seq>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi05_Kaoudi_Zoi"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi05_Dalamagas_Theodore"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi05_Sellis_Timos"/>
+        </rdf:li>
+      </rdf:Seq>
+    </dc:creator>
+    <dct:isPartOf>
+      <bibtex:Proceedings rdf:about="kaoudi05_Proceedings_of_the_2nd_European_Semantic_Web_Conference_2005"/>
+    </dct:isPartOf>
+    <dc:title>RDFSculpt: Managing RDF Schemas under Set-like Semantics</dc:title>
+  </bibtex:InProceedings>
+  <bibtex:Proceedings rdf:about="kaoudi05_Proceedings_of_the_2nd_European_Semantic_Web_Conference_2005">
+    <dc:date>2005-09</dc:date>
+    <bibtex:month>September</bibtex:month>
+    <vcard:ADR rdf:parseType="Resource">
+      <vcard:Locality>Heraklion</vcard:Locality>
+      <vcard:Country>Greece</vcard:Country>
+    </vcard:ADR>
+    <dc:title>Proceedings of the 2nd European Semantic Web Conference 2005</dc:title>
+  </bibtex:Proceedings>
+  <bibtex:Person rdf:about="kaoudi05_Dalamagas_Theodore">
+    <rdfs:label>Theodore Dalamagas</rdfs:label>
+    <vcard:FN>Theodore Dalamagas</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Dalamagas</vcard:Family>
+      <vcard:Given>Theodore</vcard:Given>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi05_Sellis_Timos">
+    <rdfs:label>Timos Sellis</rdfs:label>
+    <vcard:FN>Timos Sellis</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Sellis</vcard:Family>
+      <vcard:Given>Timos</vcard:Given>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi05_Kaoudi_Zoi">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Kaoudi</vcard:Family>
+      <vcard:Given>Zoi</vcard:Given>
+    </vcard:N>
+    <rdfs:label>Zoi Kaoudi</rdfs:label>
+    <vcard:FN>Zoi Kaoudi</vcard:FN>
+  </bibtex:Person>
+  <bibtex:sourceFile rdf:about="bibfile">
+    <bibtex:absolutePath>file:/D:/zoi/eswc05-zkaoudi.bib</bibtex:absolutePath>
+  </bibtex:sourceFile>
+  <rdf:Seq rdf:about="referenceList">
+    <rdf:li rdf:resource="kaoudi05"/>
+  </rdf:Seq>
+</rdf:RDF>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:bibtex="http://www.edutella.org/bibtex#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <bibtex:Collection rdf:about="kaoudi-publishing_CoreGRID_Workshop_on_Grid_Programming_Model__Grid_and_P2P_Systems_Architecture__Grid_Systems__Tools_and_Environments">
+    <vcard:ADR rdf:parseType="Resource">
+      <vcard:Locality>Heraklion, Crete</vcard:Locality>
+      <vcard:Country>Greece</vcard:Country>
+    </vcard:ADR>
+    <bibtex:month>June</bibtex:month>
+    <dc:title>CoreGRID Workshop on Grid Programming Model, Grid and P2P Systems Architecture, Grid Systems, Tools and Environments</dc:title>
+    <dc:date>2006-06</dc:date>
+  </bibtex:Collection>
+  <bibtex:Proceedings rdf:about="kaoudi-publishing">
+    <dc:creator>
+      <rdf:Seq>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Kaoudi_Zoi"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Koubarakis_Manolis"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Kyzirakos_Kostis"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Magiridou_Matoula"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Miliaraki_Iris"/>
+        </rdf:li>
+        <rdf:li>
+          <bibtex:Person rdf:about="kaoudi-publishing_Papadakis-Pesaresi_Antonis"/>
+        </rdf:li>
+      </rdf:Seq>
+    </dc:creator>
+    <dct:isPartOf rdf:resource="kaoudi-publishing_CoreGRID_Workshop_on_Grid_Programming_Model__Grid_and_P2P_Systems_Architecture__Grid_Systems__Tools_and_Environments"/>
+    <dc:title>Publishing, Discovering and Updating Semantic Grid Resources using DHTs</dc:title>
+  </bibtex:Proceedings>
+  <bibtex:Person rdf:about="kaoudi-publishing_Kyzirakos_Kostis">
+    <vcard:FN>Kostis Kyzirakos</vcard:FN>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Kostis</vcard:Given>
+      <vcard:Family>Kyzirakos</vcard:Family>
+    </vcard:N>
+    <rdfs:label>Kostis Kyzirakos</rdfs:label>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi-publishing_Koubarakis_Manolis">
+    <rdfs:label>Manolis Koubarakis</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Koubarakis</vcard:Family>
+      <vcard:Given>Manolis</vcard:Given>
+    </vcard:N>
+    <vcard:FN>Manolis Koubarakis</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi-publishing_Magiridou_Matoula">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Magiridou</vcard:Family>
+      <vcard:Given>Matoula</vcard:Given>
+    </vcard:N>
+    <rdfs:label>Matoula Magiridou</rdfs:label>
+    <vcard:FN>Matoula Magiridou</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi-publishing_Kaoudi_Zoi">
+    <vcard:FN>Zoi Kaoudi</vcard:FN>
+    <rdfs:label>Zoi Kaoudi</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Kaoudi</vcard:Family>
+      <vcard:Given>Zoi</vcard:Given>
+    </vcard:N>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi-publishing_Miliaraki_Iris">
+    <rdfs:label>Iris Miliaraki</rdfs:label>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Miliaraki</vcard:Family>
+      <vcard:Given>Iris</vcard:Given>
+    </vcard:N>
+    <vcard:FN>Iris Miliaraki</vcard:FN>
+  </bibtex:Person>
+  <bibtex:Person rdf:about="kaoudi-publishing_Papadakis-Pesaresi_Antonis">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Antonis</vcard:Given>
+      <vcard:Family>Papadakis-Pesaresi</vcard:Family>
+    </vcard:N>
+    <rdfs:label>Antonis Papadakis-Pesaresi</rdfs:label>
+    <vcard:FN>Antonis Papadakis-Pesaresi</vcard:FN>
+  </bibtex:Person>
+  <bibtex:sourceFile rdf:about="bibfile">
+    <bibtex:absolutePath>file:/D:/zoi/Kaoudi07Publishing.bib</bibtex:absolutePath>
+  </bibtex:sourceFile>
+  <rdf:Seq rdf:about="referenceList">
+    <rdf:li rdf:resource="kaoudi-publishing"/>
+  </rdf:Seq>
+</rdf:RDF>
